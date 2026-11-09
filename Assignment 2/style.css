@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(images/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+   
+}
+
+.char1{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    height: 200px;
+}
+.char2{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    height: 200px;
+    transform: scaleX(-1);
+}
