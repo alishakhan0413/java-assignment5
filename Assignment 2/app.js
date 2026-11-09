@@ -16,13 +16,11 @@ function animateChar(event) {
    
 }
 if (event.keyCode == 32) {
-    char1.src = "https://www.fightersgeneration.com/characters/alicestance.gif";
+    char1.src = "https://www.fightersgeneration.com/characters/alice12.gif";
 
     setTimeout(() => {
-        char1.src = "https://www.fightersgeneration.com/characters/alice12.gif";
+        char1.src = "https://www.fightersgeneration.com/characters/alicestance.gif";
     }, 1000);
 }
 }
 window.onkeydown = animateChar
-
-
