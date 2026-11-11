@@ -18,11 +18,12 @@
     bottom: 5px;
     left: 10px;
     height: 200px;
+     transform: scaleX(-1);
 }
 .char2{
     position: absolute;
     bottom: 5px;
     right: 10px;
-    height: 200px;
+    height: 270px;
     transform: scaleX(-1);
 }
