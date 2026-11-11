@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+    color: black;
+}
+.dark {
+    background-color: black;
+}
+.fontLight {
+    color: aqua;
+}
